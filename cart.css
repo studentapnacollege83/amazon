@@ -1,0 +1,182 @@
+.checkout-header{
+    height: 80px;
+    display: flex;
+}
+.logo1{
+    height: 50px;
+    width: 180px;
+    margin: 0;
+    padding: 9px;
+}
+.logo2{
+  background-color: white;
+  border: none;
+}
+.logo2:hover{
+  background-color:rgb(243, 243, 243) ;
+}
+.logopng{
+    height: 50px;
+    width: 180px;
+}
+.para{
+ font-size: 50px;
+ padding-left:700px ;
+}
+main{
+  width:95%;
+  margin:40px auto;
+}
+
+.review{
+  margin-bottom:20px;
+}
+
+.cart-item{
+  background:white;
+  border:1px solid #ddd;
+  border-radius:5px;
+  padding:20px;
+}
+
+.delivery-date{
+  color:green;
+  font-size:28px;
+  font-weight:bold;
+  margin-bottom:25px;
+}
+
+.product-container{
+  display:grid;
+  grid-template-columns:150px 1fr 350px;
+  gap:20px;
+  align-items:start;
+}
+
+.product-image img{
+  width:130px;
+}
+
+.product-details h3{
+  font-size:28px;
+  margin-bottom:15px;
+}
+
+.price{
+  color:#b12704;
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:15px;
+}
+
+.product-details p{
+  font-size:22px;
+}
+
+.product-details a{
+  text-decoration:none;
+  color:#007185;
+  margin-left:10px;
+}
+
+.delivery-options h3{
+  margin-bottom:20px;
+  font-size:24px;
+}
+.quantity-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.update-btn,
+.delete-btn{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.update-quantity-link{
+    background-color: white;
+    color: rgb(106, 152, 252);
+    font-size: 20px;
+    border: none;
+}
+
+.delete-quantity-link{
+    background-color:white;
+    color: rgb(91, 120, 252);
+    font-size: 20px;
+    border: none;
+}
+.delete-quantity-link:hover{
+  color: #b12704;
+}
+.update-quantity-link:hover{
+  color: #b12704;
+}
+
+
+
+.delivery-options label{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+  cursor:pointer;
+}
+
+.delivery-options input{
+  width:22px;
+  height:22px;
+}
+
+.date{
+  color:green;
+  font-size:30px;
+  font-weight:bold;
+}
+
+.delivery-options p{
+  font-size:30px;
+  color:#666;
+}
+.checkout-main{
+  display:grid;
+  grid-template-columns:1fr 350px;
+  gap:20px;
+}
+
+.order-summary{
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:8px;
+  height:fit-content;
+}
+
+.summary-row{
+  display:flex;
+  justify-content:space-between;
+  margin:10px 0;
+  font-size: 25px;
+}
+
+.total{
+  font-size:22px;
+  font-weight:bold;
+  color:#b12704;
+  font-size: 35px;
+}
+
+.place-order-btn{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  border:none;
+  background:#ffd814;
+  cursor:pointer;
+  border-radius:20px;
+  font-size: 20px;
+}
